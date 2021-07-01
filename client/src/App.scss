@@ -13,28 +13,35 @@ body {
   height: 100vh;
   font-size: 16px;
   color: white;
-  background: rgb(14, 85, 117);
+  background: linear-gradient(#dbdbdb 0%, #38b9e1 100%);
   font-family: 'Open Sans', sans-serif;
+  
 }
 
 #root {
   width: 100%;
   height: 100%;
   display: grid;
+  place-items: center;
 }
 
 .App {
   width: 100%;
-  // height: 100vh;
-  background: linear-gradient(#1b4f98, #52afde);
-  // background: green;
+  height: 100%;
+  background: linear-gradient(#0f6edb, #8bc5f4);
   flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-
+  // display: flex;
+  // flex-direction: column;
+  display: grid;
+  // grid-template-rows: 90% 10%;
+  
 
   // border: 4px dotted red;
   // background: pink;
+}
+
+.contentContainer{
+
 }
 
 .header {
@@ -51,13 +58,14 @@ body {
 
   &__h1{
     font-size: 2rem;
-
+    letter-spacing: 1px;
   }
 
   &__logo{
-    width: 2.5rem;
+    width: 2.7rem;
     display: inline;
-    transform: translateY(-0px);
+    transform: translateY(-2px);
+    margin-left: 3px;
   }
 }
 
@@ -76,7 +84,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    gap: 15px;
+    gap: 10px;
 
     // border: 3px dotted red;
 
@@ -88,10 +96,12 @@ body {
 
   &__exercise{
     width: 8rem;
+    text-align: center;
+    color: #1d66c0;
 
     &--flashRed {
-      background: red;
-      border-color: red;
+      background: #e44b64cb;
+      border-color: #e44b64cb;
     }
 
     &--flashGreen {
@@ -101,9 +111,13 @@ body {
   }
 
   &__sets{
+    text-align: center;
+    width: 3rem;
+    color: #1d66c0;
+
     &--flashRed {
-      background: red;
-      border-color: red;
+      background: #e44b64cb;
+      border-color: #e44b64cb;
     }
 
     &--flashGreen {
@@ -113,11 +127,14 @@ body {
   }
 
   &__reps{
+    text-align: center;
+    width: 3rem;
+    color: #1d66c0;
     display: inline;
     
     &--flashRed {
-      background: red;
-      border-color: red;
+      background: #e44b64cb;
+      border-color: #e44b64cb;
     }
 
     &--flashGreen {
@@ -135,6 +152,7 @@ body {
     border-radius: 6px;
     background-color: #69d223;
     color: white;
+    width: 3rem;
     border: 2px solid white;
     stroke: 1px solid black;
     font-size: 1.2rem;
@@ -143,6 +161,10 @@ body {
        0.2px  0.2px 0 #2a4ff1,
        0.2px -0.2px 0 #2a4ff1,
       -0.2px -0.2px 0 #2a4ff1;
+      &--flashRed {
+        background: #f33d5ccb;
+        border-color: #f33d5ccb;
+      }
   }
 }
 
@@ -156,7 +178,7 @@ input {
 label {
   display: block;
   text-align: left;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .week {
@@ -166,8 +188,8 @@ label {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  gap: 15px;
-  padding-top: 20px;
+  // gap: 15px;
+  padding-top: 25px;
   padding-bottom: 6rem;
 
 
@@ -179,8 +201,12 @@ label {
     // background: yellow;
     width: 90%;
     margin-bottom: 10px;
-    font-family: 'Patua One', cursive;
+    font-weight: bold;
     text-align: center;
+    font-size: 1.3rem;
+    // letter-spacing: 0.7px;
+    text-decoration: underline;
+    margin-bottom: 5px;
   }
 
   &__button {
@@ -203,17 +229,19 @@ label {
 
 
 .exercise {
-  width: 90%;
+  width: 85%;
   max-width: 380px;
-  border: 1.5px solid white;
+  border: 1px solid white;
   border-radius: 10px;
   padding: 5px;
+  margin-bottom: 10px;
   
   &__description {
     margin-bottom: 5px;
     margin-left: 10px;
     display: inline-block;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
   }
 
   &__cross{
@@ -229,10 +257,10 @@ label {
   width: 100%;
   font-size: 2rem;
   display: grid;
-  grid-template-columns: repeat(10, 1fr);
+  grid-template-columns: repeat(8, 1fr);
   justify-items: center;
 
-  gap: 1px;
+  gap: 0.5px;
 
 
   // align-items: center;
@@ -252,20 +280,20 @@ label {
 
 .checkbox {
 
-  width: 2rem;
-  height: 2rem;
-  order: 2;
+  width: 2.5rem;
+  height: 2.5rem;
+  // order: 2;
   display: grid;
   place-items: center;
 
   &__arm {
-    width: 2.2rem;
+    width: 2.5rem;
   }
 
   // background: red;
 
   &--checked{
-    order: 1;
+    // order: 1;
   }
 }
 
@@ -275,9 +303,15 @@ label {
   height: 5rem;
   position: fixed;
   bottom: 0;
-  background:#1b4f98;
+  background: #5ed927;
   display: flex;
   font-size: 3rem;
+  text-shadow:
+      -0.2px  0.2px 0 #0e6ca7,
+       0.2px  0.2px 0 #0e6ca7,
+       0.2px -0.2px 0 #0e6ca7,
+      -0.2px -0.2px 0 #0e6ca7;
+
 
   /* border: 1px dotted black; */
 
@@ -288,7 +322,7 @@ label {
     /* background: pink; */
 
     &--selected {
-      background: rgba(255, 255, 255, 0.2);
+      background: rgba(255, 255, 255, 0.185);
     }
   }
 
@@ -304,4 +338,65 @@ label {
   }
 }
 
+@media all and (min-width: 500px) {
+  body {
+    display: grid;
+    place-items: center;
+  }
 
+  #root{
+
+  }
+
+  .App {
+    width: 400px;
+    height: 620px;
+    height: 812px;
+    border-radius: 30px;
+
+    // scrollbar-width: none;
+    // &::-webkit-scrollbar {
+    //   display: none;
+    // }
+
+    box-shadow: 0 0 0 3px rgba(23, 83, 126, 0.521),
+                0 0 0 14px rgb(253, 249, 255);
+  }
+
+ 
+
+  .contentContainer{
+    width: 100%;
+    height: 100%;
+    // flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+
+    scrollbar-width: none;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+  }
+
+  .header {
+
+    &__h1{
+      font-size: 2.1rem;
+      letter-spacing: 1px;
+    }
+  }
+
+  .navbar{
+    position: static;
+    transform: translateY(1px);
+    height: 5rem;
+    min-height: 5rem;
+    border-radius: 0 0 30px 30px;
+    margin-top: auto;
+    position: sticky;
+  }
+
+}

@@ -39,12 +39,13 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
-      <Input fetchData={fetchData} />
-      <Week currentWeek={database.current} fetchData={fetchData} />
-      
-      <Navbar />
 
+        <div className="contentContainer">
+          <Header />
+          <Input fetchData={fetchData} />
+          <Week currentWeek={database.current} fetchData={fetchData} />
+          <Navbar />
+        </div>
     </div>
   );
 }

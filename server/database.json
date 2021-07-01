@@ -4,434 +4,129 @@
     "weekID": "11112222",
     "exercises": [
       {
-        "description": "test",
-        "id": "8828715950218942",
-        "sets": 20,
-        "reps": 2,
+        "description": "dffdf",
+        "id": "43938521576180345",
+        "sets": 10,
+        "reps": 4,
         "checkboxes": [
           {
-            "reps": 2,
+            "reps": 4,
             "completed": true,
             "checkboxID": 0
           },
           {
-            "reps": 2,
+            "reps": 4,
             "completed": true,
             "checkboxID": 1
           },
           {
-            "reps": 2,
+            "reps": 4,
             "completed": true,
             "checkboxID": 2
           },
           {
-            "reps": 2,
+            "reps": 4,
             "completed": true,
             "checkboxID": 3
           },
           {
-            "reps": 2,
+            "reps": 4,
             "completed": true,
             "checkboxID": 4
           },
           {
-            "reps": 2,
+            "reps": 4,
             "completed": true,
             "checkboxID": 5
           },
           {
-            "reps": 2,
+            "reps": 4,
             "completed": true,
             "checkboxID": 6
           },
           {
-            "reps": 2,
+            "reps": 4,
             "completed": true,
             "checkboxID": 7
           },
           {
-            "reps": 2,
-            "completed": false,
+            "reps": 4,
+            "completed": true,
             "checkboxID": 8
           },
           {
-            "reps": 2,
-            "completed": false,
+            "reps": 4,
+            "completed": true,
             "checkboxID": 9
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 10
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 11
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 12
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 13
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 14
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 15
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 16
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 17
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 18
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 19
           }
         ]
       },
       {
-        "description": "test",
-        "id": "05888769000874072",
-        "sets": 20,
-        "reps": 2,
+        "description": "Go for a run",
+        "id": "7278826920865968",
+        "sets": 3,
+        "reps": 1,
         "checkboxes": [
           {
-            "reps": 2,
+            "reps": 1,
             "completed": false,
             "checkboxID": 0
           },
           {
-            "reps": 2,
+            "reps": 1,
             "completed": false,
             "checkboxID": 1
           },
           {
-            "reps": 2,
+            "reps": 1,
             "completed": false,
             "checkboxID": 2
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 3
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 4
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 5
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 6
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 7
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 8
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 9
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 10
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 11
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 12
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 13
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 14
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 15
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 16
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 17
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 18
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 19
           }
         ]
       },
       {
-        "description": "test",
-        "id": "6283961873681636",
-        "sets": 20,
-        "reps": 2,
+        "description": "Go for a run",
+        "id": "0017681111544882722",
+        "sets": 3,
+        "reps": 1,
         "checkboxes": [
           {
-            "reps": 2,
+            "reps": 1,
             "completed": false,
             "checkboxID": 0
           },
           {
-            "reps": 2,
+            "reps": 1,
             "completed": false,
             "checkboxID": 1
           },
           {
-            "reps": 2,
+            "reps": 1,
             "completed": false,
             "checkboxID": 2
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 3
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 4
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 5
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 6
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 7
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 8
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 9
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 10
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 11
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 12
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 13
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 14
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 15
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 16
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 17
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 18
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 19
           }
         ]
       },
       {
-        "description": "test",
-        "id": "40612233656473173",
-        "sets": 20,
-        "reps": 2,
+        "description": "Test",
+        "id": "2385848785718787",
+        "sets": 3,
+        "reps": 3,
         "checkboxes": [
           {
-            "reps": 2,
+            "reps": 3,
             "completed": false,
             "checkboxID": 0
           },
           {
-            "reps": 2,
+            "reps": 3,
             "completed": false,
             "checkboxID": 1
           },
           {
-            "reps": 2,
+            "reps": 3,
             "completed": false,
             "checkboxID": 2
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 3
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 4
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 5
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 6
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 7
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 8
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 9
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 10
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 11
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 12
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 13
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 14
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 15
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 16
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 17
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 18
-          },
-          {
-            "reps": 2,
-            "completed": false,
-            "checkboxID": 19
           }
         ]
       }

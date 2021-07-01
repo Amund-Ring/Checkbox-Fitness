@@ -98,12 +98,12 @@ const Input = ({ fetchData }) => {
   
         <span>
           <label htmlFor="input__sets">Sets: </label>
-          <input ref={setsInputField} type="text" className="input__sets" size="4" maxLength="3"></input>
+          <input ref={setsInputField} type="text" className="input__sets" size="3" maxLength="3"></input>
         </span>
   
         <span>
           <label htmlFor="input__reps">Reps: </label>
-          <input ref={repsInputField} type="text" className="input__reps" size="4" maxLength="3"></input>
+          <input ref={repsInputField} type="text" className="input__reps" size="3" maxLength="3"></input>
         </span>
   
         <span className="input__buttonSpan">
