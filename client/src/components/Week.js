@@ -3,10 +3,7 @@ import Exercise from "./Exercise";
 
 const Week = ( { currentWeek, fetchData } ) => {
 
-  // const exerciseList = currentWeek.exercises.map(exercise => {
-  //   console.log('hehe');
-  // });
-
+  
 
 
   return (
@@ -17,7 +14,7 @@ const Week = ( { currentWeek, fetchData } ) => {
           <Exercise key={exercise.id} exercise={exercise} fetchData={fetchData}/>
         ))}
         
-      
+        <button className="week__button">New week</button>
       </main>
   );
 }

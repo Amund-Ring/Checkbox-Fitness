@@ -1,4 +1,6 @@
 /* eslint-disable */
+import logo from './logo.svg';
+
 const Checkbox = ({ exercise, checkbox, fetchData }) => {
 
   const toggleCompleted = (e) => {
@@ -13,7 +15,8 @@ const Checkbox = ({ exercise, checkbox, fetchData }) => {
   return (
     <span onClick={toggleCompleted} className={`checkbox ${checkbox.completed ? 'checkbox--checked' : ''}`}>
       <i className={`bx bx-circle ${checkbox.completed ? 'hide' : ''}`}></i>
-      <i className={`bx bx-check-circle ${checkbox.completed ? '' : 'hide'}`}></i>
+      {/* <i className={`bx bx-check-circle ${checkbox.completed ? '' : 'hide'}`}></i> */}
+      <img src={logo} className={`checkbox__arm ${checkbox.completed ? '' : 'hide'}`}/>
     </span>
 );
 }

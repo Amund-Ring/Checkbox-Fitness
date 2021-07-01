@@ -2,9 +2,10 @@
 
 import './App.scss';
 import { useEffect, useState} from 'react';
+import Header from './components/Header'; 
 import Input from './components/Input'; 
 import Week from './components/Week'; 
-import Footer from './components/Footer'; 
+import Navbar from './components/Navbar'; 
 
 
 function App() {
@@ -28,7 +29,7 @@ function App() {
     .then(data => updateDatabase(data))
  }
  
- 
+
   useEffect(() => {    
     fetchData();
   }, []);
@@ -38,9 +39,11 @@ function App() {
 
   return (
     <div className="App">
+      <Header />
       <Input fetchData={fetchData} />
       <Week currentWeek={database.current} fetchData={fetchData} />
-      <Footer />
+      
+      <Navbar />
 
     </div>
   );
