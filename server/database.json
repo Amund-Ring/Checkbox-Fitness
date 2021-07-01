@@ -1,7 +1,7 @@
 {
   "current": {
     "week": "22",
-    "weekId": 123456,
+    "weekID": "cxvdsf",
     "exercises": [
       {
         "description": "Pullups",
@@ -53,7 +53,7 @@
           },
           {
             "reps": 1,
-            "completed": false
+            "completed": true
           }
         ]
       }
@@ -62,7 +62,7 @@
   "history": [
     {
       "week": "20",
-      "weekId": 123456,
+      "weekID": "bjkukkfg",
       "exercises": [
         {
           "description": "Pullups",

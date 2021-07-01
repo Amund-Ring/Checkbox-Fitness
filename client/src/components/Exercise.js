@@ -7,8 +7,8 @@ const Exercise = ({ exercise }) => (
     <h3 className="exercise__description">{exercise.description}</h3>
     <div className="exercise__checkboxArea">
 
-      {exercise.checkboxes.map(checkbox => (
-        <Checkbox checkbox={checkbox}/>
+      {exercise.checkboxes.map((checkbox, index) => (
+        <Checkbox key={index} checkbox={checkbox}/>
       ))}
 
     </div>

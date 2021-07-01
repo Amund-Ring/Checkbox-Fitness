@@ -55,7 +55,7 @@ function App() {
     <div className="App">
       {/* <button onClick={()=>{console.log(Math.random())}}>Button</button> */}
       {/* <button onClick={()=>{console.log( String(Math.random()).slice(2)   )}}>Button</button>  */}
-      <button onClick={()=>{}}>Button</button> 
+      {/* <button onClick={()=>{}}>Button</button>  */}
       <Input />
       <Week currentWeek={database.current}/>
       <Footer />

@@ -13,7 +13,7 @@ const Week = ( {currentWeek} ) => {
         <h2 className="week__title">Week {currentWeek.week}</h2>
   
         {currentWeek.exercises.map(exercise => (
-          <Exercise exercise={exercise}/>
+          <Exercise key={exercise.id} exercise={exercise}/>
         ))}
         
       
