@@ -5,8 +5,8 @@ import Checkbox from "./Checkbox";
 const Exercise = ({ exercise, fetchData }) => {
 
   const completedSets = exercise.checkboxes.filter(checkbox => checkbox.completed === true).length;
-  const completedReps = completedSets * (exercise.checkboxes[0].reps);
-  const totalReps = exercise.checkboxes.length * (exercise.checkboxes[0].reps);
+  const completedReps = completedSets * (exercise.reps);
+  const totalReps = exercise.checkboxes.length * (exercise.reps);
 
   const deleteCard = () => {
 
@@ -27,7 +27,7 @@ const Exercise = ({ exercise, fetchData }) => {
 
       <div className="exercise__checkboxArea">
         {exercise.checkboxes.map((checkbox, index) => (
-          <Checkbox key={index} checkbox={checkbox}/>
+          <Checkbox key={index} exercise={exercise} checkbox={checkbox} fetchData={fetchData}/>
         ))}
       </div>
 

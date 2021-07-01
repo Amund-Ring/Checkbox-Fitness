@@ -1,10 +1,12 @@
 /* eslint-disable */
-const Checkbox = ({ checkbox }) => {
+const Checkbox = ({ exercise, checkbox, fetchData }) => {
 
   const toggleCompleted = (e) => {
-    console.log('click');
-    console.log(e.target.parentNode);
-    console.log(e.target.parentNode.key);
+    fetch(`/api/db/${exercise.id}/${checkbox.checkboxID}`, { 
+      method: 'PUT' 
+    });
+
+    fetchData();
   }
   
 

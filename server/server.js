@@ -23,17 +23,25 @@ app.post('/api/db', (req, res) => {
   const dataBuffer = fs.readFileSync('database.json');
   const jsonData = JSON.parse(dataBuffer);
   let exercises = jsonData.current.exercises;
+  const reps = Number(req.body.reps);
   const sets = Number(req.body.sets);
 
   let exerciseObject = {
     description: req.body.description,
-    id: String(Math.random()).slice(2),
     id: getUniqueID(),
-    checkboxes: Array(sets).fill({
-      "reps": req.body.reps,
-      "completed": false,
-    })
+    sets: sets,
+    reps: reps,
+    checkboxes: []
   }
+
+  for (let i = 0; i < sets; i++) {
+    exerciseObject.checkboxes.push({
+      "reps": reps,
+      "completed": false,
+      "checkboxID": i
+    });
+  }
+
 
   console.log('yes', exerciseObject.checkboxes);
   
@@ -46,18 +54,40 @@ app.post('/api/db', (req, res) => {
 });
 
 
-app.put('/api/db/checkboxes/:id', (req, res) => {
+app.put('/api/db/:exercise/:index', (req, res) => {
+
+  const exerciseID = req.params.exercise;
+  const index = req.params.index;
+
   const dataBuffer = fs.readFileSync('database.json');
   const jsonData = JSON.parse(dataBuffer);
-  let history = jsonData.history;
 
-  history = history.filter(week => week.weekID != req.params.id);
-
-  jsonData.history = history;
+  const exercises = jsonData.current.exercises;
+  let exercise = exercises.filter(ex => ex.id === exerciseID)[0];
+  let checkboxes = exercise.checkboxes;
+  const checkbox = checkboxes.filter(box => box.checkboxID == index)[0];
+  
+  checkbox.completed = !checkbox.completed;
+  checkboxes = checkboxes.filter(box => box.checkboxID != index);
+  checkboxes.unshift(checkbox);
+  
   const dataString = JSON.stringify(jsonData, null, 2);
   fs.writeFileSync('database.json', dataString);
 
-  res.json(history);
+
+  res.end();
+
+  // const dataBuffer = fs.readFileSync('database.json');
+  // const jsonData = JSON.parse(dataBuffer);
+  // let history = jsonData.history;
+
+  // history = history.filter(week => week.weekID != req.params.id);
+
+  // jsonData.history = history;
+  // const dataString = JSON.stringify(jsonData, null, 2);
+  // fs.writeFileSync('database.json', dataString);
+
+  // res.json(history);
 });
 
 

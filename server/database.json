@@ -5,27 +5,67 @@
     "exercises": [
       {
         "description": "Jumping",
-        "id": "35973515491035224",
+        "id": "9445758692367363",
+        "sets": 5,
+        "reps": 8,
         "checkboxes": [
           {
-            "reps": "8",
-            "completed": false
+            "reps": 8,
+            "completed": true,
+            "checkboxID": 0
           },
           {
-            "reps": "8",
-            "completed": false
+            "reps": 8,
+            "completed": true,
+            "checkboxID": 1
           },
           {
-            "reps": "8",
-            "completed": false
+            "reps": 8,
+            "completed": false,
+            "checkboxID": 2
           },
           {
-            "reps": "8",
-            "completed": false
+            "reps": 8,
+            "completed": false,
+            "checkboxID": 3
           },
           {
-            "reps": "8",
-            "completed": false
+            "reps": 8,
+            "completed": false,
+            "checkboxID": 4
+          }
+        ]
+      },
+      {
+        "description": "Jumping",
+        "id": "6554403665749862",
+        "sets": 5,
+        "reps": 8,
+        "checkboxes": [
+          {
+            "reps": 8,
+            "completed": false,
+            "checkboxID": 0
+          },
+          {
+            "reps": 8,
+            "completed": false,
+            "checkboxID": 1
+          },
+          {
+            "reps": 8,
+            "completed": false,
+            "checkboxID": 2
+          },
+          {
+            "reps": 8,
+            "completed": false,
+            "checkboxID": 3
+          },
+          {
+            "reps": 8,
+            "completed": false,
+            "checkboxID": 4
           }
         ]
       }
