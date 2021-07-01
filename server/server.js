@@ -10,6 +10,8 @@ const port = 5000;
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
+const getUniqueID = () => String(Math.random()).slice(2);
+
 app.get('/api/db', (req, res) => {
   const dataBuffer = fs.readFileSync('database.json');
   const jsonData = JSON.parse(dataBuffer);
@@ -26,11 +28,14 @@ app.post('/api/db', (req, res) => {
   let exerciseObject = {
     description: req.body.description,
     id: String(Math.random()).slice(2),
+    id: getUniqueID(),
     checkboxes: Array(sets).fill({
       "reps": req.body.reps,
-      "completed": false
+      "completed": false,
     })
   }
+
+  console.log('yes', exerciseObject.checkboxes);
   
   exercises = [...exercises, exerciseObject];
   jsonData.current.exercises = exercises;
@@ -39,6 +44,22 @@ app.post('/api/db', (req, res) => {
 
   res.json(jsonData.current.exercises);
 });
+
+
+app.put('/api/db/checkboxes/:id', (req, res) => {
+  const dataBuffer = fs.readFileSync('database.json');
+  const jsonData = JSON.parse(dataBuffer);
+  let history = jsonData.history;
+
+  history = history.filter(week => week.weekID != req.params.id);
+
+  jsonData.history = history;
+  const dataString = JSON.stringify(jsonData, null, 2);
+  fs.writeFileSync('database.json', dataString);
+
+  res.json(history);
+});
+
 
 app.delete('/api/db/history/:id', (req, res) => {
   const dataBuffer = fs.readFileSync('database.json');

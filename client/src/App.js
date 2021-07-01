@@ -20,55 +20,24 @@ function App() {
     }
   )
   
-  // const postRequest = async () => {
-    // const response = await fetch('/api/db', {
-    //   method: 'POST',
-    //   headers: {
-    //     'Content-Type': 'application/json',
-    //   },
-    //   body: JSON.stringify({ database }),
-    // });
-    // const body = await response.text();
-    
-    // console.log(body);
-
-      // const response = await fetch('/api/world', {
-      //   method: 'POST',
-      //   headers: {
-      //     'Content-Type': 'application/json',
-      //   },
-      //   body: JSON.stringify({ post: 'Testing the post route' }),
-      // });
-      // const body = await response.text();
-  // }; 
+ 
 
  const fetchData = () => {    
-
-  console.log('im here');
-
   fetch('/api/db')
     .then(res => res.json())
     .then(data => updateDatabase(data))
  }
  
+ 
   useEffect(() => {    
     fetchData();
   }, []);
 
-  // useEffect(() => {    
-  //   fetch('/api/db')
-  //     .then(res => res.json())
-  //     .then(data => updateDatabase(data))
-  // }, []);
-  
 
 
 
   return (
     <div className="App">
-      {/* <button onClick={()=>{console.log(Math.random())}}>Button</button> */}
-      {/* <button onClick={()=>{console.log( String(Math.random()).slice(2)   )}}>Button</button>  */}
-      {/* <button onClick={()=>{}}>Button</button>  */}
       <Input fetchData={fetchData} />
       <Week currentWeek={database.current} fetchData={fetchData} />
       <Footer />

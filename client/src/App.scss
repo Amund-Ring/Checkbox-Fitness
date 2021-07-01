@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -143,6 +144,7 @@ label {
     width: 90%;
     margin-bottom: 10px;
     font-family: 'Patua One', cursive;
+    text-align: center;
   }
 
 }
@@ -157,13 +159,18 @@ label {
   
   &__description {
     margin-bottom: 5px;
+    margin-left: 10px;
     display: inline-block;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   &__cross{
     font-size: 1.3rem;
     float: right;
+    margin-top: -15px;
+    margin-bottom: 10px;
+
+    // background: pink;
   }
 
   &__checkboxArea{
@@ -180,7 +187,7 @@ label {
   // text-align: center;
   // vertical-align: middle;
 
-  // background: pink;
+  // background: yellowgreen;
   }
 
   &__total {
@@ -196,8 +203,10 @@ label {
   width: 2rem;
   height: 2rem;
   order: 2;
+  display: grid;
+  place-items: center;
 
-  // background: yellowgreen;
+  // background: red;
 
   &--checked{
     order: 1;

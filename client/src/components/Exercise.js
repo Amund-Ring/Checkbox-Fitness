@@ -10,9 +10,6 @@ const Exercise = ({ exercise, fetchData }) => {
 
   const deleteCard = () => {
 
-    const stringy = `/api/db/${exercise.id}`;
-    console.log(stringy);
-
     fetch(`/api/db/${exercise.id}`, { 
       method: 'DELETE' 
     });
@@ -22,8 +19,10 @@ const Exercise = ({ exercise, fetchData }) => {
   
 
   return (
-    <div className="exercise">
-      <h3 className="exercise__description">{exercise.description}</h3>
+
+
+    <fieldset className="exercise">
+      <legend className="exercise__description">{exercise.description}</legend>
       <i className='bx bx-x-circle exercise__cross' onClick={deleteCard}></i>
 
       <div className="exercise__checkboxArea">
@@ -33,7 +32,7 @@ const Exercise = ({ exercise, fetchData }) => {
       </div>
 
       <h3 className="exercise__total">Completed: {completedReps} / {totalReps}</h3>
-    </div>
+    </fieldset>
   )
 };
 
