@@ -1,6 +1,7 @@
+/* eslint-disable */
 import Exercise from "./Exercise";
 
-const Week = ( {currentWeek} ) => {
+const Week = ( { currentWeek } ) => {
 
   // const exerciseList = currentWeek.exercises.map(exercise => {
   //   console.log('hehe');

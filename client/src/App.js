@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import './App.scss';
 import { useEffect, useState} from 'react';
 import Input from './components/Input'; 
@@ -40,13 +42,21 @@ function App() {
       // const body = await response.text();
   // }; 
 
+ const fetchData = () => {    
+  fetch('/api/db')
+    .then(res => res.json())
+    .then(data => updateDatabase(data))
+ }
  
-
   useEffect(() => {    
-    fetch('/api/db')
-      .then(res => res.json())
-      .then(data => updateDatabase(data))
+    fetchData();
   }, []);
+
+  // useEffect(() => {    
+  //   fetch('/api/db')
+  //     .then(res => res.json())
+  //     .then(data => updateDatabase(data))
+  // }, []);
   
 
 
@@ -56,8 +66,8 @@ function App() {
       {/* <button onClick={()=>{console.log(Math.random())}}>Button</button> */}
       {/* <button onClick={()=>{console.log( String(Math.random()).slice(2)   )}}>Button</button>  */}
       {/* <button onClick={()=>{}}>Button</button>  */}
-      <Input />
-      <Week currentWeek={database.current}/>
+      <Input fetchData={fetchData} />
+      <Week currentWeek={database.current} />
       <Footer />
 
     </div>

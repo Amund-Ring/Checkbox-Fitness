@@ -17,7 +17,7 @@
           },
           {
             "reps": 8,
-            "completed": false
+            "completed": true
           }
         ]
       },
@@ -36,24 +36,6 @@
           {
             "reps": 8,
             "completed": false
-          }
-        ]
-      },
-      {
-        "description": "Jog",
-        "id": "7971003165169743",
-        "checkboxes": [
-          {
-            "reps": 1,
-            "completed": false
-          },
-          {
-            "reps": 1,
-            "completed": false
-          },
-          {
-            "reps": 1,
-            "completed": true
           }
         ]
       }

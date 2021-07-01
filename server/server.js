@@ -17,14 +17,16 @@ app.get('/api/db', (req, res) => {
 });
 
 app.post('/api/db', (req, res) => {
+
   const dataBuffer = fs.readFileSync('database.json');
   const jsonData = JSON.parse(dataBuffer);
   let exercises = jsonData.current.exercises;
+  const sets = Number();
 
   let exerciseObject = {
     description: req.body.description,
     id: String(Math.random()).slice(2),
-    checkboxes: Array(req.body.sets).fill({
+    checkboxes: Array(3).fill({
       "reps": req.body.reps,
       "completed": false
     })
