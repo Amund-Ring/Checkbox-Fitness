@@ -1,0 +1,124 @@
+{
+  "current": {
+    "week": "22",
+    "weekId": 123456,
+    "exercises": [
+      {
+        "description": "Pullups",
+        "id": "8914274398918889",
+        "checkboxes": [
+          {
+            "reps": 8,
+            "completed": false
+          },
+          {
+            "reps": 8,
+            "completed": true
+          },
+          {
+            "reps": 8,
+            "completed": false
+          }
+        ]
+      },
+      {
+        "description": "Squats",
+        "id": "4822152170237908",
+        "checkboxes": [
+          {
+            "reps": 8,
+            "completed": false
+          },
+          {
+            "reps": 8,
+            "completed": false
+          },
+          {
+            "reps": 8,
+            "completed": false
+          }
+        ]
+      },
+      {
+        "description": "Jog",
+        "id": "7971003165169743",
+        "checkboxes": [
+          {
+            "reps": 1,
+            "completed": false
+          },
+          {
+            "reps": 1,
+            "completed": false
+          },
+          {
+            "reps": 1,
+            "completed": false
+          }
+        ]
+      }
+    ]
+  },
+  "history": [
+    {
+      "week": "20",
+      "weekId": 123456,
+      "exercises": [
+        {
+          "description": "Pullups",
+          "id": "8914274398918889",
+          "checkboxes": [
+            {
+              "reps": 8,
+              "completed": false
+            },
+            {
+              "reps": 8,
+              "completed": true
+            },
+            {
+              "reps": 8,
+              "completed": false
+            }
+          ]
+        },
+        {
+          "description": "Squats",
+          "id": "4822152170237908",
+          "checkboxes": [
+            {
+              "reps": 8,
+              "completed": false
+            },
+            {
+              "reps": 8,
+              "completed": false
+            },
+            {
+              "reps": 8,
+              "completed": false
+            }
+          ]
+        },
+        {
+          "description": "Jog",
+          "id": "7971003165169743",
+          "checkboxes": [
+            {
+              "reps": 1,
+              "completed": false
+            },
+            {
+              "reps": 1,
+              "completed": false
+            },
+            {
+              "reps": 1,
+              "completed": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

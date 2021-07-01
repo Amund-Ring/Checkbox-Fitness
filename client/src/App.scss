@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.hide {
+  display: none;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-size: 16px;
+  color: white;
+  background: rgb(14, 85, 117);
+  
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  display: grid;
+}
+
+.App {
+  width: 100%;
+  // height: 100vh;
+  background: linear-gradient(#1b4f98, #52afde);
+  // background: green;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+
+
+  // border: 4px dotted red;
+  // background: pink;
+}
+
+.input{
+  text-align: center;
+  height: 150px;
+  display: grid;
+  place-items: center;
+
+  border: 3px dotted white;
+}
+
+.week {
+  flex-grow: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  // gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 6rem;
+
+
+  /* background: rgba(222, 123, 139, 0.594); */
+  // border: 3px dotted red;
+
+  &__title {
+
+    // background: yellow;
+    width: 90%;
+    margin-bottom: 10px;
+  }
+
+}
+
+
+.exercise {
+  width: 90%;
+
+  // border: 4px dotted yellow;
+
+  &__description {
+    // background: skyblue;
+    margin-bottom: 5px;
+  }
+
+  &__checkboxArea{
+  width: 100%;
+  font-size: 2rem;
+  display: flex;
+  gap: 5px;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+  
+  // background: tan;
+  }
+
+  &__total {
+    margin-top: 5px;
+    font-size: 1rem;
+    text-align: right;
+  }
+
+}
+
+.checkbox{
+
+  width: 2rem;
+  height: 2rem;
+  order: 2;
+  // background: pink;
+
+  &--checked{
+    order: 1;
+  }
+}
+
+
+.footer {
+  width: 100%;
+  height: 5rem;
+  position: fixed;
+  bottom: 0;
+  background:#1b4f98;
+  display: flex;
+  font-size: 3rem;
+
+  /* border: 1px dotted black; */
+
+  &__left {
+    flex-grow: 1;
+    display: grid;
+    place-items: center;
+    /* background: pink; */
+
+    &--selected {
+      background: rgba(255, 255, 255, 0.2);
+    }
+  }
+
+  &__right {
+    flex-grow: 1;
+    display: grid;
+    place-items: center;
+    /* background: green; */
+  }
+}
+
+
