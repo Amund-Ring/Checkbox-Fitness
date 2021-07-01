@@ -21,12 +21,12 @@ app.post('/api/db', (req, res) => {
   const dataBuffer = fs.readFileSync('database.json');
   const jsonData = JSON.parse(dataBuffer);
   let exercises = jsonData.current.exercises;
-  const sets = Number();
+  const sets = Number(req.body.sets);
 
   let exerciseObject = {
     description: req.body.description,
     id: String(Math.random()).slice(2),
-    checkboxes: Array(3).fill({
+    checkboxes: Array(sets).fill({
       "reps": req.body.reps,
       "completed": false
     })
@@ -40,7 +40,7 @@ app.post('/api/db', (req, res) => {
   res.json(jsonData.current.exercises);
 });
 
-app.delete('/api/db/:id', (req, res) => {
+app.delete('/api/db/history/:id', (req, res) => {
   const dataBuffer = fs.readFileSync('database.json');
   const jsonData = JSON.parse(dataBuffer);
   let history = jsonData.history;
@@ -52,6 +52,20 @@ app.delete('/api/db/:id', (req, res) => {
   fs.writeFileSync('database.json', dataString);
 
   res.json(history);
+});
+
+app.delete('/api/db/:id', (req, res) => {
+  const dataBuffer = fs.readFileSync('database.json');
+  const jsonData = JSON.parse(dataBuffer);
+
+  let exercises = jsonData.current.exercises;
+  exercises = exercises.filter(exercise => exercise.id != req.params.id);
+
+  jsonData.current.exercises = exercises;
+  const dataString = JSON.stringify(jsonData, null, 2);
+  fs.writeFileSync('database.json', dataString);
+
+  res.end();
 });
 
 app.listen(port, () => console.log(`Listening on port ${port}`));

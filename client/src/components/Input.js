@@ -7,10 +7,68 @@ const Input = ({ fetchData }) => {
   const setsInputField = useRef();
   const repsInputField = useRef();
 
+  const inputIsValid = () => {
+    if (!exerciseInputField.current.value || !setsInputField.current.value || !repsInputField.current.value) {
+      return false;
+    } else if (!(/^\d+$/.test(setsInputField.current.value))) {
+      return false;
+    } else if (!(/^\d+$/.test(repsInputField.current.value))) {
+      return false;
+    }
+
+    return true;
+  }
+  
+
+  const flashRed = () => {
+    exerciseInputField.current.classList.add('input__exercise--flashRed');
+    setsInputField.current.classList.add('input__sets--flashRed');
+    repsInputField.current.classList.add('input__reps--flashRed');
+    setTimeout(() => {
+      exerciseInputField.current.style.transition = 'all 3.5s';
+      setsInputField.current.style.transition = 'all 3.5s';
+      repsInputField.current.style.transition = 'all 3.5s';
+      exerciseInputField.current.classList.remove('input__exercise--flashRed');
+      setsInputField.current.classList.remove('input__sets--flashRed');
+      repsInputField.current.classList.remove('input__reps--flashRed');
+    }, 200);
+    exerciseInputField.current.style.transition = 'all 0s';
+    setsInputField.current.style.transition = 'all 0s';
+    repsInputField.current.style.transition = 'all 0s';
+  };
+
+  const flashGreen = () => {
+    exerciseInputField.current.classList.add('input__exercise--flashGreen');
+    setsInputField.current.classList.add('input__sets--flashGreen');
+    repsInputField.current.classList.add('input__reps--flashGreen');
+    setTimeout(() => {
+      exerciseInputField.current.style.transition = 'all 3.5s';
+      setsInputField.current.style.transition = 'all 3.5s';
+      repsInputField.current.style.transition = 'all 3.5s';
+      exerciseInputField.current.classList.remove('input__exercise--flashGreen');
+      setsInputField.current.classList.remove('input__sets--flashGreen');
+      repsInputField.current.classList.remove('input__reps--flashGreen');
+    }, 200);
+    exerciseInputField.current.style.transition = 'all 0s';
+    setsInputField.current.style.transition = 'all 0s';
+    repsInputField.current.style.transition = 'all 0s';
+  };
+
+  const clearFields = () => {
+    exerciseInputField.current.value = '';
+    setsInputField.current.value = '';
+    repsInputField.current.value = '';
+  }
+  
+
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
+    if (!inputIsValid()) {
+      flashRed();
+      return;
+    }
 
     await fetch('/api/db', {
       method: 'POST',
@@ -24,8 +82,9 @@ const Input = ({ fetchData }) => {
       }),
     });
 
+    flashGreen();
+    // clearFields();
     fetchData();
-
   }
   
 

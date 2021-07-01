@@ -43,6 +43,9 @@ function App() {
   // }; 
 
  const fetchData = () => {    
+
+  console.log('im here');
+
   fetch('/api/db')
     .then(res => res.json())
     .then(data => updateDatabase(data))
@@ -67,7 +70,7 @@ function App() {
       {/* <button onClick={()=>{console.log( String(Math.random()).slice(2)   )}}>Button</button>  */}
       {/* <button onClick={()=>{}}>Button</button>  */}
       <Input fetchData={fetchData} />
-      <Week currentWeek={database.current} />
+      <Week currentWeek={database.current} fetchData={fetchData} />
       <Footer />
 
     </div>

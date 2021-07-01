@@ -13,7 +13,7 @@ body {
   font-size: 16px;
   color: white;
   background: rgb(14, 85, 117);
-  
+  font-family: 'Open Sans', sans-serif;
 }
 
 #root {
@@ -44,6 +44,7 @@ body {
 
   border: 3px dotted white;
 
+
   &__form {
     // width: 100%;
     // height: 100%;
@@ -54,21 +55,70 @@ body {
     // border: 3px dotted red;
   }
 
+  &__exercise{
+    &--flashRed {
+      background: red;
+      border-color: red;
+    }
+
+    &--flashGreen {
+      background: green;
+      border-color: green;
+    }
+  }
+
+  &__sets{
+    &--flashRed {
+      background: red;
+      border-color: red;
+    }
+
+    &--flashGreen {
+      background: green;
+      border-color: green;
+    }
+  }
+
   &__reps{
     display: inline;
+    
+    &--flashRed {
+      background: red;
+      border-color: red;
+    }
+
+    &--flashGreen {
+      background: green;
+      border-color: green;
+    }
   }
 
   &__buttonSpan {
     display: grid;
     align-items: end;
   }
+
+  &__button{
+    border-radius: 6px;
+    background-color: #69d223;
+    color: white;
+    border: 2px solid white;
+    stroke: 1px solid black;
+    text-shadow:
+      -0.2px  0.2px 0 #2a4ff1,
+       0.2px  0.2px 0 #2a4ff1,
+       0.2px -0.2px 0 #2a4ff1,
+      -0.2px -0.2px 0 #2a4ff1;
+  }
 }
 
-input, label {
-  display: block;
+input {
+  border-radius: 6px;
+  border: 2px solid #69d223;
 }
 
 label {
+  display: block;
   text-align: left;
 }
 
@@ -79,7 +129,7 @@ label {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  // gap: 20px;
+  gap: 15px;
   padding-top: 20px;
   padding-bottom: 6rem;
 
@@ -92,6 +142,7 @@ label {
     // background: yellow;
     width: 90%;
     margin-bottom: 10px;
+    font-family: 'Patua One', cursive;
   }
 
 }
@@ -100,29 +151,41 @@ label {
 .exercise {
   width: 90%;
 
-  // border: 4px dotted yellow;
-
+  border: 1.5px solid white;
+  border-radius: 10px;
+  padding: 5px;
+  
   &__description {
-    // background: skyblue;
     margin-bottom: 5px;
+    display: inline-block;
+    font-size: 1rem;
+  }
+
+  &__cross{
+    font-size: 1.3rem;
+    float: right;
   }
 
   &__checkboxArea{
   width: 100%;
   font-size: 2rem;
-  display: flex;
-  gap: 5px;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
   justify-items: center;
-  align-items: center;
-  text-align: center;
-  vertical-align: middle;
-  
-  // background: tan;
+
+  gap: 1px;
+
+
+  // align-items: center;
+  // text-align: center;
+  // vertical-align: middle;
+
+  // background: pink;
   }
 
   &__total {
-    margin-top: 5px;
-    font-size: 1rem;
+    margin-top: 10px;
+    font-size: 0.8rem;
     text-align: right;
   }
 
@@ -133,7 +196,8 @@ label {
   width: 2rem;
   height: 2rem;
   order: 2;
-  // background: pink;
+
+  // background: yellowgreen;
 
   &--checked{
     order: 1;
