@@ -48,7 +48,6 @@ app.post('/api/db', (req, res) => {
       "checkboxID": i
     });
   }
-
   
   exercises = [...exercises, exerciseObject];
   jsonData.current.exercises = exercises;

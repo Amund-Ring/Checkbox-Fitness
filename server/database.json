@@ -1,1728 +1,244 @@
 {
   "current": {
-    "week": 26,
-    "weekID": "6147160157105294",
+    "week": 27,
+    "weekID": "11634665801685373",
     "exercises": [
       {
-        "description": "dfjk",
-        "id": "07889939102634869",
-        "sets": 343,
-        "reps": 22,
+        "description": "Pullups",
+        "id": "3366031963934082",
+        "sets": 16,
+        "reps": 8,
         "checkboxes": [
           {
-            "reps": 22,
-            "completed": false,
+            "reps": 8,
+            "completed": true,
             "checkboxID": 0
           },
           {
-            "reps": 22,
-            "completed": false,
+            "reps": 8,
+            "completed": true,
             "checkboxID": 1
           },
           {
-            "reps": 22,
-            "completed": false,
+            "reps": 8,
+            "completed": true,
             "checkboxID": 2
           },
           {
-            "reps": 22,
+            "reps": 8,
             "completed": false,
             "checkboxID": 3
           },
           {
-            "reps": 22,
+            "reps": 8,
             "completed": false,
             "checkboxID": 4
           },
           {
-            "reps": 22,
+            "reps": 8,
             "completed": false,
             "checkboxID": 5
           },
           {
-            "reps": 22,
+            "reps": 8,
             "completed": false,
             "checkboxID": 6
           },
           {
-            "reps": 22,
+            "reps": 8,
             "completed": false,
             "checkboxID": 7
           },
           {
-            "reps": 22,
+            "reps": 8,
             "completed": false,
             "checkboxID": 8
           },
           {
-            "reps": 22,
+            "reps": 8,
             "completed": false,
             "checkboxID": 9
           },
           {
-            "reps": 22,
+            "reps": 8,
             "completed": false,
             "checkboxID": 10
           },
           {
-            "reps": 22,
+            "reps": 8,
             "completed": false,
             "checkboxID": 11
           },
           {
-            "reps": 22,
+            "reps": 8,
             "completed": false,
             "checkboxID": 12
           },
           {
-            "reps": 22,
+            "reps": 8,
             "completed": false,
             "checkboxID": 13
           },
           {
-            "reps": 22,
+            "reps": 8,
             "completed": false,
             "checkboxID": 14
           },
           {
-            "reps": 22,
+            "reps": 8,
+            "completed": false,
+            "checkboxID": 15
+          }
+        ]
+      },
+      {
+        "description": "Air Squats",
+        "id": "173893585636113",
+        "sets": 24,
+        "reps": 10,
+        "checkboxes": [
+          {
+            "reps": 10,
+            "completed": true,
+            "checkboxID": 0
+          },
+          {
+            "reps": 10,
+            "completed": true,
+            "checkboxID": 1
+          },
+          {
+            "reps": 10,
+            "completed": true,
+            "checkboxID": 2
+          },
+          {
+            "reps": 10,
+            "completed": true,
+            "checkboxID": 3
+          },
+          {
+            "reps": 10,
+            "completed": false,
+            "checkboxID": 4
+          },
+          {
+            "reps": 10,
+            "completed": false,
+            "checkboxID": 5
+          },
+          {
+            "reps": 10,
+            "completed": false,
+            "checkboxID": 6
+          },
+          {
+            "reps": 10,
+            "completed": false,
+            "checkboxID": 7
+          },
+          {
+            "reps": 10,
+            "completed": false,
+            "checkboxID": 8
+          },
+          {
+            "reps": 10,
+            "completed": false,
+            "checkboxID": 9
+          },
+          {
+            "reps": 10,
+            "completed": false,
+            "checkboxID": 10
+          },
+          {
+            "reps": 10,
+            "completed": false,
+            "checkboxID": 11
+          },
+          {
+            "reps": 10,
+            "completed": false,
+            "checkboxID": 12
+          },
+          {
+            "reps": 10,
+            "completed": false,
+            "checkboxID": 13
+          },
+          {
+            "reps": 10,
+            "completed": false,
+            "checkboxID": 14
+          },
+          {
+            "reps": 10,
             "completed": false,
             "checkboxID": 15
           },
           {
-            "reps": 22,
+            "reps": 10,
             "completed": false,
             "checkboxID": 16
           },
           {
-            "reps": 22,
+            "reps": 10,
             "completed": false,
             "checkboxID": 17
           },
           {
-            "reps": 22,
+            "reps": 10,
             "completed": false,
             "checkboxID": 18
           },
           {
-            "reps": 22,
+            "reps": 10,
             "completed": false,
             "checkboxID": 19
           },
           {
-            "reps": 22,
+            "reps": 10,
             "completed": false,
             "checkboxID": 20
           },
           {
-            "reps": 22,
+            "reps": 10,
             "completed": false,
             "checkboxID": 21
           },
           {
-            "reps": 22,
+            "reps": 10,
             "completed": false,
             "checkboxID": 22
           },
           {
-            "reps": 22,
+            "reps": 10,
             "completed": false,
             "checkboxID": 23
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 24
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 25
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 26
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 27
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 28
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 29
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 30
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 31
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 32
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 33
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 34
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 35
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 36
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 37
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 38
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 39
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 40
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 41
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 42
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 43
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 44
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 45
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 46
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 47
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 48
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 49
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 50
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 51
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 52
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 53
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 54
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 55
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 56
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 57
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 58
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 59
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 60
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 61
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 62
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 63
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 64
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 65
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 66
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 67
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 68
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 69
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 70
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 71
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 72
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 73
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 74
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 75
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 76
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 77
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 78
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 79
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 80
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 81
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 82
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 83
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 84
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 85
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 86
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 87
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 88
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 89
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 90
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 91
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 92
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 93
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 94
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 95
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 96
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 97
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 98
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 99
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 100
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 101
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 102
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 103
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 104
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 105
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 106
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 107
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 108
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 109
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 110
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 111
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 112
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 113
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 114
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 115
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 116
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 117
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 118
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 119
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 120
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 121
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 122
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 123
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 124
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 125
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 126
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 127
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 128
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 129
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 130
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 131
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 132
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 133
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 134
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 135
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 136
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 137
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 138
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 139
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 140
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 141
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 142
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 143
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 144
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 145
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 146
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 147
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 148
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 149
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 150
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 151
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 152
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 153
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 154
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 155
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 156
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 157
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 158
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 159
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 160
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 161
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 162
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 163
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 164
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 165
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 166
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 167
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 168
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 169
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 170
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 171
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 172
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 173
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 174
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 175
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 176
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 177
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 178
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 179
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 180
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 181
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 182
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 183
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 184
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 185
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 186
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 187
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 188
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 189
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 190
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 191
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 192
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 193
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 194
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 195
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 196
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 197
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 198
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 199
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 200
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 201
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 202
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 203
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 204
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 205
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 206
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 207
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 208
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 209
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 210
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 211
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 212
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 213
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 214
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 215
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 216
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 217
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 218
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 219
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 220
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 221
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 222
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 223
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 224
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 225
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 226
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 227
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 228
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 229
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 230
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 231
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 232
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 233
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 234
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 235
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 236
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 237
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 238
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 239
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 240
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 241
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 242
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 243
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 244
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 245
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 246
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 247
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 248
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 249
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 250
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 251
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 252
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 253
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 254
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 255
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 256
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 257
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 258
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 259
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 260
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 261
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 262
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 263
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 264
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 265
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 266
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 267
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 268
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 269
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 270
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 271
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 272
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 273
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 274
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 275
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 276
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 277
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 278
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 279
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 280
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 281
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 282
-          },
-          {
-            "reps": 22,
+          }
+        ]
+      },
+      {
+        "description": "Jog",
+        "id": "02038435862533916",
+        "sets": 3,
+        "reps": 1,
+        "checkboxes": [
+          {
+            "reps": 1,
             "completed": true,
-            "checkboxID": 283
+            "checkboxID": 0
           },
           {
-            "reps": 22,
+            "reps": 1,
             "completed": false,
-            "checkboxID": 284
+            "checkboxID": 1
           },
           {
-            "reps": 22,
+            "reps": 1,
             "completed": false,
-            "checkboxID": 285
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 286
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 287
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 288
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 289
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 290
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 291
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 292
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 293
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 294
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 295
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 296
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 297
-          },
-          {
-            "reps": 22,
-            "completed": true,
-            "checkboxID": 298
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 299
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 300
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 301
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 302
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 303
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 304
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 305
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 306
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 307
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 308
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 309
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 310
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 311
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 312
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 313
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 314
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 315
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 316
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 317
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 318
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 319
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 320
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 321
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 322
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 323
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 324
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 325
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 326
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 327
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 328
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 329
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 330
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 331
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 332
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 333
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 334
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 335
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 336
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 337
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 338
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 339
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 340
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 341
-          },
-          {
-            "reps": 22,
-            "completed": false,
-            "checkboxID": 342
+            "checkboxID": 2
           }
         ]
       }
