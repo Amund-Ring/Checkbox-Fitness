@@ -12,12 +12,19 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 const getUniqueID = () => String(Math.random()).slice(2);
 
+Date.prototype.getWeek = function() {
+  var onejan = new Date(this.getFullYear(), 0, 1);
+  return Math.ceil((((this - onejan) / 86400000) + onejan.getDay() + 1) / 7);
+}
+
+//get data
 app.get('/api/db', (req, res) => {
   const dataBuffer = fs.readFileSync('database.json');
   const jsonData = JSON.parse(dataBuffer);
   res.json(jsonData);
 });
 
+// create exercise
 app.post('/api/db', (req, res) => {
 
   const dataBuffer = fs.readFileSync('database.json');
@@ -42,8 +49,6 @@ app.post('/api/db', (req, res) => {
     });
   }
 
-
-  console.log('yes', exerciseObject.checkboxes);
   
   exercises = [...exercises, exerciseObject];
   jsonData.current.exercises = exercises;
@@ -54,6 +59,7 @@ app.post('/api/db', (req, res) => {
 });
 
 
+// toggle complete
 app.put('/api/db/:exercise/:index', (req, res) => {
 
   const exerciseID = req.params.exercise;
@@ -76,21 +82,50 @@ app.put('/api/db/:exercise/:index', (req, res) => {
 
 
   res.end();
+});
 
-  // const dataBuffer = fs.readFileSync('database.json');
-  // const jsonData = JSON.parse(dataBuffer);
-  // let history = jsonData.history;
+//delete exercise
+app.delete('/api/db/:id', (req, res) => {
+  const dataBuffer = fs.readFileSync('database.json');
+  const jsonData = JSON.parse(dataBuffer);
 
-  // history = history.filter(week => week.weekID != req.params.id);
+  let exercises = jsonData.current.exercises;
+  exercises = exercises.filter(exercise => exercise.id != req.params.id);
 
-  // jsonData.history = history;
-  // const dataString = JSON.stringify(jsonData, null, 2);
-  // fs.writeFileSync('database.json', dataString);
+  jsonData.current.exercises = exercises;
+  const dataString = JSON.stringify(jsonData, null, 2);
+  fs.writeFileSync('database.json', dataString);
 
-  // res.json(history);
+  res.end();
 });
 
 
+//create new week and archive current week
+app.put('/api/db/new', (req, res) => {
+
+  
+  const dataBuffer = fs.readFileSync('database.json');
+  const jsonData = JSON.parse(dataBuffer);
+
+  const history = jsonData.history;
+  history.unshift(jsonData.current);
+  
+  jsonData.current = {
+    "week": new Date().getWeek(),
+    "weekID": getUniqueID(),
+    "exercises": []
+  };
+  
+  const dataString = JSON.stringify(jsonData, null, 2);
+  fs.writeFileSync('database.json', dataString);
+
+
+  res.send('Testing');
+});
+
+
+
+//delete week from history
 app.delete('/api/db/history/:id', (req, res) => {
   const dataBuffer = fs.readFileSync('database.json');
   const jsonData = JSON.parse(dataBuffer);
@@ -105,18 +140,5 @@ app.delete('/api/db/history/:id', (req, res) => {
   res.json(history);
 });
 
-app.delete('/api/db/:id', (req, res) => {
-  const dataBuffer = fs.readFileSync('database.json');
-  const jsonData = JSON.parse(dataBuffer);
-
-  let exercises = jsonData.current.exercises;
-  exercises = exercises.filter(exercise => exercise.id != req.params.id);
-
-  jsonData.current.exercises = exercises;
-  const dataString = JSON.stringify(jsonData, null, 2);
-  fs.writeFileSync('database.json', dataString);
-
-  res.end();
-});
 
 app.listen(port, () => console.log(`Listening on port ${port}`));

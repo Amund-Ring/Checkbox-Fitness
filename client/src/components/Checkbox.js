@@ -1,6 +1,6 @@
 /* eslint-disable */
-import unchecked from './unchecked.svg';
-import checked from './checked.svg';
+import unchecked from './img/unchecked.svg';
+import checked from './img/checked.svg';
 
 const Checkbox = ({ exercise, checkbox, fetchData }) => {
 
@@ -18,6 +18,7 @@ const Checkbox = ({ exercise, checkbox, fetchData }) => {
       {/* <i className={`bx bx-circle ${checkbox.completed ? 'hide' : ''}`}></i> */}
       <i className={`checkbox__arm ${checkbox.completed ? 'hide' : ''}`}></i>
       <img src={unchecked} className={`checkbox__arm ${checkbox.completed ? 'hide' : ''}`}/>
+      <p className={`checkbox__number ${checkbox.completed ? 'hide' : ''}`}>{checkbox.reps}</p>
       <img src={checked} className={`checkbox__arm ${checkbox.completed ? '' : 'hide'}`}/>
     </span>
 );

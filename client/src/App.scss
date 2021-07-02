@@ -32,7 +32,7 @@ body {
   flex-grow: 1;
   // display: flex;
   // flex-direction: column;
-  display: grid;
+  // display: grid;
   // grid-template-rows: 90% 10%;
   
 
@@ -150,7 +150,7 @@ body {
 
   &__button{
     border-radius: 6px;
-    background-color: #69d223;
+    background-color: #61cd2f;
     color: white;
     width: 3rem;
     border: 2px solid white;
@@ -164,6 +164,10 @@ body {
       &--flashRed {
         background: #f33d5ccb;
         border-color: #f33d5ccb;
+      }
+
+      &:hover {
+        background-color: #64d630;
       }
   }
 }
@@ -201,7 +205,6 @@ label {
     // background: yellow;
     width: 90%;
     margin-bottom: 10px;
-    font-weight: bold;
     text-align: center;
     font-size: 1.3rem;
     // letter-spacing: 0.7px;
@@ -210,19 +213,25 @@ label {
   }
 
   &__button {
+    margin-top: 30px;
     border-radius: 6px;
-    align-self: flex-end;
-    margin-right: 20px;
-    background-color: #69d223;
+    margin-right: 45px;
+    background-color: #61cd2f;
     color: white;
     border: 2px solid white;
     stroke: 1px solid black;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    width: 6.5rem;
+    align-self: flex-end;
     text-shadow:
       -0.2px  0.2px 0 #2a4ff1,
        0.2px  0.2px 0 #2a4ff1,
        0.2px -0.2px 0 #2a4ff1,
       -0.2px -0.2px 0 #2a4ff1;
+
+      &:hover{
+        background-color: #64d630;
+      }
   }
 
 }
@@ -230,25 +239,28 @@ label {
 
 .exercise {
   width: 85%;
-  max-width: 380px;
+  max-width: 85%;
   border: 1px solid white;
   border-radius: 10px;
-  padding: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
   margin-bottom: 10px;
+  background: rgba(137, 234, 252, 0.151);
   
   &__description {
     margin-bottom: 5px;
     margin-left: 10px;
     display: inline-block;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    letter-spacing: -0.2px;
     font-weight: bold;
   }
 
   &__cross{
-    font-size: 1.3rem;
+    font-size: 1rem;
     float: right;
     margin-top: -15px;
-    margin-bottom: 10px;
+    margin-bottom: 2px;
 
     // background: pink;
   }
@@ -260,7 +272,7 @@ label {
   grid-template-columns: repeat(8, 1fr);
   justify-items: center;
 
-  gap: 0.5px;
+  // gap: 0.5px;
 
 
   // align-items: center;
@@ -271,7 +283,7 @@ label {
   }
 
   &__total {
-    margin-top: 10px;
+    margin-top: 4px;
     font-size: 0.8rem;
     text-align: right;
   }
@@ -280,14 +292,23 @@ label {
 
 .checkbox {
 
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 2.4rem;
+  height: 2.4rem;
   // order: 2;
-  display: grid;
-  place-items: center;
+  // display: grid;
+  // place-items: center;
+  position: relative;
 
   &__arm {
-    width: 2.5rem;
+    width: 100%;
+  }
+
+  &__number {
+    font-size: 0.7rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   // background: red;
@@ -297,13 +318,57 @@ label {
   }
 }
 
+.history{
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    margin-top: 30px;
+    text-decoration: underline;
+    text-align: center;
+    justify-self: center;
+  }
+
+  &__week{
+    width: 85%;
+    max-width: 95%;
+    margin-top: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 10px;
+    background: rgba(137, 234, 252, 0.151);
+    display: flex;
+    // justify-content: center;
+  }
+
+  &__textwrapper {
+    width: 100%;
+  }
+
+  &__cross {
+    font-size: 1.2rem;
+    float: right;
+    position: sticky;
+    // display: absolute;
+    left: 0px;
+    // float: right;
+    margin-top: -5px;
+    // margin-bottom: 2px;
+  }
+}
+
 
 .navbar {
   width: 100%;
   height: 5rem;
   position: fixed;
   bottom: 0;
-  background: #5ed927;
+  background: #58cc22;
   display: flex;
   font-size: 3rem;
   text-shadow:
@@ -319,10 +384,15 @@ label {
     flex-grow: 1;
     display: grid;
     place-items: center;
+    border-radius: 0 0 0 30px;
     /* background: pink; */
 
     &--selected {
-      background: rgba(255, 255, 255, 0.185);
+      background: #68de31;
+    }
+
+    &:hover {
+      background-color: #f2ffed34;
     }
   }
 
@@ -330,10 +400,14 @@ label {
     flex-grow: 1;
     display: grid;
     place-items: center;
-    /* background: green; */
+    border-radius: 0 0 30px ;
 
     &--selected {
-      background: rgba(255, 255, 255, 0.2);
+      background: #68de31;
+    }
+
+    &:hover {
+      background-color: #f2ffed34;
     }
   }
 }
@@ -399,4 +473,49 @@ label {
     position: sticky;
   }
 
+}
+
+@media all and (max-width: 330px) {
+  
+  .header {
+    &__h1 {
+      font-size: 1.6rem;
+    }
+
+    &__logo{
+      width: 2.2rem;
+    }
+  }
+
+  .week {
+    &__title {
+      font-size: 1rem;
+    }
+  }
+
+  .exercise {
+    &__description {
+      font-size: 1.2rem;
+    }
+  }
+
+  .checkbox {
+
+    width: 2rem;
+    height: 2rem;
+    // order: 2;
+    display: grid;
+    place-items: center;
+  
+    &__arm {
+      width: 2rem;
+    }
+  }
+
+  .history {
+
+    &__week {
+      font-size: 0.8rem;
+    }
+  }
 }

@@ -1,5 +1,5 @@
 /* eslint-disable */
-import logo from './logo.svg';
+import logo from './img/logo.svg';
 
 const Header = () => (
     <header className="header">

@@ -1,7 +1,11 @@
 /* eslint-disable */
 import { useRef } from 'react';
 
-const Input = ({ fetchData }) => {
+const Input = ({ showWeek, fetchData }) => {
+
+  if (!showWeek) {
+    return '';
+  }
 
   const exerciseInputField = useRef();
   const setsInputField = useRef();
@@ -83,7 +87,7 @@ const Input = ({ fetchData }) => {
     });
 
     flashGreen();
-    // clearFields();
+    clearFields();
     fetchData();
   }
   
@@ -93,7 +97,7 @@ const Input = ({ fetchData }) => {
       <form className="input__form">
         <span>
           <label htmlFor="input__exercise">Exercise: </label>
-          <input ref={exerciseInputField} type="text" className="input__exercise" size="20" maxLength="20"></input>
+          <input ref={exerciseInputField} type="text" className="input__exercise" size="20" maxLength="16"></input>
         </span>
   
         <span>
