@@ -1,11 +1,11 @@
 {
   "current": {
-    "week": 27,
-    "weekID": "11634665801685373",
+    "week": 28,
+    "weekID": "5571694876805502",
     "exercises": [
       {
         "description": "Pullups",
-        "id": "3366031963934082",
+        "id": "7389811355370759",
         "sets": 16,
         "reps": 8,
         "checkboxes": [
@@ -16,12 +16,12 @@
           },
           {
             "reps": 8,
-            "completed": true,
+            "completed": false,
             "checkboxID": 1
           },
           {
             "reps": 8,
-            "completed": true,
+            "completed": false,
             "checkboxID": 2
           },
           {
@@ -93,7 +93,7 @@
       },
       {
         "description": "Air Squats",
-        "id": "173893585636113",
+        "id": "4585248562189972",
         "sets": 24,
         "reps": 10,
         "checkboxes": [
@@ -109,12 +109,12 @@
           },
           {
             "reps": 10,
-            "completed": true,
+            "completed": false,
             "checkboxID": 2
           },
           {
             "reps": 10,
-            "completed": true,
+            "completed": false,
             "checkboxID": 3
           },
           {
@@ -216,29 +216,6 @@
             "reps": 10,
             "completed": false,
             "checkboxID": 23
-          }
-        ]
-      },
-      {
-        "description": "Jog",
-        "id": "02038435862533916",
-        "sets": 3,
-        "reps": 1,
-        "checkboxes": [
-          {
-            "reps": 1,
-            "completed": true,
-            "checkboxID": 0
-          },
-          {
-            "reps": 1,
-            "completed": false,
-            "checkboxID": 1
-          },
-          {
-            "reps": 1,
-            "completed": false,
-            "checkboxID": 2
           }
         ]
       }
