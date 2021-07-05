@@ -2,4 +2,4 @@
 
 Created with with JavaScript and the React Framework.
 
-[Screenshot](client/public/Screenshot.png)
+[Screenshot](client/public/screenshot.png)
