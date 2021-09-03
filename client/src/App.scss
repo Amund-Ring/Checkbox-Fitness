@@ -15,7 +15,6 @@ body {
   color: white;
   background: linear-gradient(#dbdbdb 0%, #38b9e1 100%);
   font-family: 'Open Sans', sans-serif;
-  
 }
 
 #root {
@@ -30,18 +29,6 @@ body {
   height: 100%;
   background: linear-gradient(#0f6edb, #8bc5f4);
   flex-grow: 1;
-  // display: flex;
-  // flex-direction: column;
-  // display: grid;
-  // grid-template-rows: 90% 10%;
-  
-
-  // border: 4px dotted red;
-  // background: pink;
-}
-
-.contentContainer{
-
 }
 
 .header {
@@ -54,14 +41,12 @@ body {
   display: flex;
   justify-content: center;
 
-  // background: pink;
-
-  &__h1{
+  &__h1 {
     font-size: 2rem;
     letter-spacing: 1px;
   }
 
-  &__logo{
+  &__logo {
     width: 2.7rem;
     display: inline;
     transform: translateY(-2px);
@@ -69,32 +54,20 @@ body {
   }
 }
 
-.input{
+.input {
   text-align: center;
   height: 100px;
   display: grid;
   place-content: center;
 
-  // background: pink;
-
-
   &__form {
-    // width: 100%;
-    // height: 60px;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
     gap: 10px;
-
-    // border: 3px dotted red;
-
-    & span {
-      // background: pink;
-      // height: 100%;
-    }
   }
 
-  &__exercise{
+  &__exercise {
     width: 8rem;
     text-align: center;
     color: #1d66c0;
@@ -110,7 +83,7 @@ body {
     }
   }
 
-  &__sets{
+  &__sets {
     text-align: center;
     width: 3rem;
     color: #1d66c0;
@@ -126,12 +99,12 @@ body {
     }
   }
 
-  &__reps{
+  &__reps {
     text-align: center;
     width: 3rem;
     color: #1d66c0;
     display: inline;
-    
+
     &--flashRed {
       background: #e44b64cb;
       border-color: #e44b64cb;
@@ -148,7 +121,7 @@ body {
     align-items: end;
   }
 
-  &__button{
+  &__button {
     border-radius: 6px;
     background-color: #61cd2f;
     color: white;
@@ -156,19 +129,16 @@ body {
     border: 2px solid white;
     stroke: 1px solid black;
     font-size: 1.2rem;
-    text-shadow:
-      -0.2px  0.2px 0 #2a4ff1,
-       0.2px  0.2px 0 #2a4ff1,
-       0.2px -0.2px 0 #2a4ff1,
-      -0.2px -0.2px 0 #2a4ff1;
-      &--flashRed {
-        background: #f33d5ccb;
-        border-color: #f33d5ccb;
-      }
+    text-shadow: -0.2px +0.2px 0 #2a4ff1, -0.2px -0.2px 0 #2a4ff1,
+                 +0.2px -0.2px 0 #2a4ff1, -0.2px -0.2px 0 #2a4ff1;
+    &--flashRed {
+      background: #f33d5ccb;
+      border-color: #f33d5ccb;
+    }
 
-      &:hover {
-        background-color: #64d630;
-      }
+    &:hover {
+      background-color: #64d630;
+    }
   }
 }
 
@@ -176,7 +146,6 @@ input {
   border-radius: 6px;
   border: 2px solid #69d223;
   font-size: 1.2rem;
-
 }
 
 label {
@@ -192,22 +161,14 @@ label {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  // gap: 15px;
   padding-top: 25px;
   padding-bottom: 6rem;
 
-
-  /* background: rgba(222, 123, 139, 0.594); */
-  // border: 3px dotted red;
-
   &__title {
-
-    // background: yellow;
     width: 90%;
     margin-bottom: 10px;
     text-align: center;
     font-size: 1.3rem;
-    // letter-spacing: 0.7px;
     text-decoration: underline;
     margin-bottom: 5px;
   }
@@ -223,19 +184,14 @@ label {
     font-size: 1.3rem;
     width: 6.5rem;
     align-self: flex-end;
-    text-shadow:
-      -0.2px  0.2px 0 #2a4ff1,
-       0.2px  0.2px 0 #2a4ff1,
-       0.2px -0.2px 0 #2a4ff1,
-      -0.2px -0.2px 0 #2a4ff1;
+    text-shadow: -0.2px 0.2px 0 #2a4ff1, 0.2px 0.2px 0 #2a4ff1,
+      0.2px -0.2px 0 #2a4ff1, -0.2px -0.2px 0 #2a4ff1;
 
-      &:hover{
-        background-color: #64d630;
-      }
+    &:hover {
+      background-color: #64d630;
+    }
   }
-
 }
-
 
 .exercise {
   width: 85%;
@@ -246,7 +202,7 @@ label {
   padding-right: 5px;
   margin-bottom: 10px;
   background: rgba(137, 234, 252, 0.151);
-  
+
   &__description {
     margin-bottom: 5px;
     margin-left: 10px;
@@ -256,30 +212,19 @@ label {
     font-weight: bold;
   }
 
-  &__cross{
+  &__cross {
     font-size: 1rem;
     float: right;
     margin-top: -15px;
     margin-bottom: 2px;
-
-    // background: pink;
   }
 
   &__checkboxArea {
-  width: 100%;
-  font-size: 2rem;
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  justify-items: center;
-
-  // gap: 0.5px;
-
-
-  // align-items: center;
-  // text-align: center;
-  // vertical-align: middle;
-
-  // background: yellowgreen;
+    width: 100%;
+    font-size: 2rem;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    justify-items: center;
   }
 
   &__total {
@@ -287,16 +232,11 @@ label {
     font-size: 0.8rem;
     text-align: right;
   }
-
 }
 
 .checkbox {
-
   width: 2.4rem;
   height: 2.4rem;
-  // order: 2;
-  // display: grid;
-  // place-items: center;
   position: relative;
 
   &__arm {
@@ -310,16 +250,9 @@ label {
     left: 50%;
     transform: translate(-50%, -50%);
   }
-
-  // background: red;
-
-  &--checked{
-    // order: 1;
-  }
 }
 
-.history{
-
+.history {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -332,7 +265,7 @@ label {
     justify-self: center;
   }
 
-  &__week{
+  &__week {
     width: 85%;
     max-width: 95%;
     margin-top: 20px;
@@ -343,7 +276,6 @@ label {
     margin-bottom: 10px;
     background: rgba(137, 234, 252, 0.151);
     display: flex;
-    // justify-content: center;
   }
 
   &__textwrapper {
@@ -354,14 +286,10 @@ label {
     font-size: 1.2rem;
     float: right;
     position: sticky;
-    // display: absolute;
     left: 0px;
-    // float: right;
     margin-top: -5px;
-    // margin-bottom: 2px;
   }
 }
-
 
 .navbar {
   width: 100%;
@@ -371,21 +299,14 @@ label {
   background: #58cc22;
   display: flex;
   font-size: 3rem;
-  text-shadow:
-      -0.2px  0.2px 0 #0e6ca7,
-       0.2px  0.2px 0 #0e6ca7,
-       0.2px -0.2px 0 #0e6ca7,
-      -0.2px -0.2px 0 #0e6ca7;
-
-
-  /* border: 1px dotted black; */
+  text-shadow: -0.2px 0.2px 0 #0e6ca7, 0.2px 0.2px 0 #0e6ca7,
+    0.2px -0.2px 0 #0e6ca7, -0.2px -0.2px 0 #0e6ca7;
 
   &__current {
     flex-grow: 1;
     display: grid;
     place-items: center;
     border-radius: 0 0 0 30px;
-    /* background: pink; */
 
     &--selected {
       background: #68de31;
@@ -400,7 +321,7 @@ label {
     flex-grow: 1;
     display: grid;
     place-items: center;
-    border-radius: 0 0 30px ;
+    border-radius: 0 0 30px;
 
     &--selected {
       background: #68de31;
@@ -418,31 +339,18 @@ label {
     place-items: center;
   }
 
-  #root{
-
-  }
-
   .App {
     width: 400px;
     height: 620px;
     height: 812px;
     border-radius: 30px;
-
-    // scrollbar-width: none;
-    // &::-webkit-scrollbar {
-    //   display: none;
-    // }
-
     box-shadow: 0 0 0 3px rgba(23, 83, 126, 0.521),
-                0 0 0 14px rgb(253, 249, 255);
+      0 0 0 14px rgb(253, 249, 255);
   }
 
- 
-
-  .contentContainer{
+  .contentContainer {
     width: 100%;
     height: 100%;
-    // flex-grow: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -452,18 +360,16 @@ label {
     &::-webkit-scrollbar {
       display: none;
     }
-
   }
 
   .header {
-
-    &__h1{
+    &__h1 {
       font-size: 2.1rem;
       letter-spacing: 1px;
     }
   }
 
-  .navbar{
+  .navbar {
     position: static;
     transform: translateY(1px);
     height: 5rem;
@@ -472,17 +378,15 @@ label {
     margin-top: auto;
     position: sticky;
   }
-
 }
 
 @media all and (max-width: 330px) {
-  
   .header {
     &__h1 {
       font-size: 1.6rem;
     }
 
-    &__logo{
+    &__logo {
       width: 2.2rem;
     }
   }
@@ -500,20 +404,17 @@ label {
   }
 
   .checkbox {
-
     width: 2rem;
     height: 2rem;
-    // order: 2;
     display: grid;
     place-items: center;
-  
+
     &__arm {
       width: 2rem;
     }
   }
 
   .history {
-
     &__week {
       font-size: 0.8rem;
     }

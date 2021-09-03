@@ -16,7 +16,7 @@
           },
           {
             "reps": 8,
-            "completed": false,
+            "completed": true,
             "checkboxID": 1
           },
           {
